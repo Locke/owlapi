@@ -224,6 +224,7 @@
 						</goals>
 						<configuration>
 							<skip>${no-javadoc}</skip>
+							<source>8</source>
 							<show>public</show>
 							<includeDependencySources>true</includeDependencySources>
 							<dependencySourceIncludes>
